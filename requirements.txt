@@ -1,0 +1,3 @@
+# 解析に使う Python のパッケージ。研究に合わせて足す。
+numpy
+matplotlib

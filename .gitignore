@@ -1,0 +1,46 @@
+# 計算・実験の大きいデータやバイナリは追跡しない。研究に合わせてパターンを足す。
+# 追跡しないデータの置き場所は、その計算・実験の README に書いておく。例:
+#   experiments/**/data/*.h5
+#   experiments/**/data/raw/
+# 1 つだけ残したいときは git add -f で追加する。
+
+# 参考文献の PDF（論文・先輩の卒論など）は手元に置くだけで追跡しない
+references/**/*.pdf
+
+# 発表資料の書き出し（slides.md から作り直せる）
+slides/**/*.pdf
+slides/**/*.pptx
+slides/**/*.html
+
+# 卒論・修論の原稿を LaTeX で書くときにできるファイル（thesis/ に置く場合）
+thesis/**/*.aux
+thesis/**/*.bbl
+thesis/**/*.blg
+thesis/**/*.dvi
+thesis/**/*.fdb_latexmk
+thesis/**/*.fls
+thesis/**/*.log
+thesis/**/*.synctex.gz
+thesis/**/*.toc
+
+# Windows からコピーしたときにできるファイル
+*:Zone.Identifier
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code の個人設定
+.claude/settings.local.json
+
+# VS Code の設定。Marp のテーマを登録する settings.json と、おすすめの拡張機能だけ追跡する
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

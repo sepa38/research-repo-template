@@ -1,0 +1,4 @@
+# Marp CLI の設定。リポジトリの直下で marp を実行すると読まれる。
+# スライドの見た目（slides/theme/ のテーマ）を登録し、図などの手元のファイルを読めるようにする。
+themeSet: ./slides/theme
+allowLocalFiles: true

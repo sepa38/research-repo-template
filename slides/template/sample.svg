@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- スライドのテンプレートの見本用の図。自分の図に差し替えたら消す。 -->
+  <rect width="800" height="500" fill="#ffffff"/>
+  <g fill="none" stroke="#898781" stroke-width="2">
+    <path d="M90 40 V430 H760"/>
+  </g>
+  <g stroke="#898781" stroke-width="2">
+    <path d="M90 430 v8 M257 430 v8 M424 430 v8 M591 430 v8 M758 430 v8"/>
+    <path d="M90 430 h-8 M90 333 h-8 M90 235 h-8 M90 138 h-8 M90 40 h-8"/>
+  </g>
+  <path d="M90 410 C 220 400, 300 120, 424 110 S 640 380, 760 395" fill="none" stroke="#1c5cab" stroke-width="4"/>
+  <path d="M90 420 C 260 415, 380 260, 480 250 S 680 360, 760 370" fill="none" stroke="#eb6834" stroke-width="4" stroke-dasharray="12 8"/>
+  <g font-family="sans-serif" font-size="26" fill="#52514e" text-anchor="middle">
+    <text x="425" y="482">x</text>
+    <text x="40" y="240" transform="rotate(-90 40 240)">y</text>
+    <text x="600" y="90">sample figure</text>
+  </g>
+</svg>
